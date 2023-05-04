@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+  <title>Sandal Lab</title>
+</head>
+<body class="_pc">
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <a href="#" class="header__logo"><img class="header__img" src="img/logo-Sandal.jpeg" alt=""></a>
+        <nav class="header__menu menu">
+          <div class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a data-goto=".home" href="#" class="menu__link">Home</a>
+                <ul class="menu__sub-list">
+                  <li><a href="#" class="menu__sub-link active">Home Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Home Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Home Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Home Item</a></li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a data-goto=".about" href="#" class="menu__link">About</a>
+                <ul class="menu__sub-list">
+                  <li><a href="#" class="menu__sub-link active">About Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">About Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">About Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">About Item</a></li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a data-goto=".products" href="#" class="menu__link">Products</a>
+                <ul class="menu__sub-list">
+                  <li><a href="#" class="menu__sub-link active">Products Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Products Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Products Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Products Item</a></li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a data-goto=".events" href="#" class="menu__link">Events</a>
+                <ul class="menu__sub-list">
+                  <li><a href="#" class="menu__sub-link active">Events Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Events Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Events Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Events Item</a></li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a data-goto=".contacts" href="#" class="menu__link">Contacts</a>
+                <ul class="menu__sub-list">
+                  <li><a href="#" class="menu__sub-link active">Contacts Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Contacts Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Contacts Item</a></li>
+                  <li><a href="#" class="menu__sub-link active">Contacts Item</a></li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a data-goto=".blog" href="#" class="menu__link"><button class="menu__btn">WhatsApp</button></a>
+              </li>
+              
+            </ul>
+          </div>
+          <button class="menu__icon icon-menu" type="button">
+            <span class="icon-menu__line"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+  
+
+    <main>
+      <section class="home">
+        <!-- <div class="home__container main-slider swiper">
+          <div class="home__swiper swiper-wrapper">
+            <div class="home__swiper-slide swiper-slide">
+              <img class="home__swiper-bg" src="img/candle1.jpeg" alt="">
+              <div class="home__swiper-container">
+                <h1 class="home__swiper-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+              </div>
+            </div>
+            <div class="home__swiper-slide swiper-slide">
+              <img class="home__swiper-bg" src="img/bottle.jpeg" alt="">
+              <div class="home__swiper-container">
+                <h1 class="home__swiper-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+              </div>
+            </div>
+            <div class="home__swiper-slide swiper-slide">
+              <img class="home__swiper-bg" src="img/candle.jpeg" alt="">
+              <div class="home__swiper-container">
+                <h1 class="home__swiper-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="home__main-slider main-slider swiper">
+          <div class="main-slider__wrapper swiper-wrapper">
+            <div class="main-slider__slide swiper-slide">
+              <img class="main-slider__bg" src="img/candle1.jpeg" alt="Image">
+              <div class="main-slider__container">
+                <a href="#" class="main-slider__category category">Candle</a>
+                <div class="main-slider__body">
+                  <div class="main-slider__text text">
+                    <p>Candles are a type of decorative lighting that have been used for centuries. They come in various shapes, sizes, colors, and scents, and are made from a variety of materials, such as wax, beeswax, soy wax, and more.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-slider__slide swiper-slide">
+              <img class="main-slider__bg" src="img/bottle.jpeg" alt="Image">
+              <div class="main-slider__container">
+                <a href="#" class="main-slider__category category">CANDLE</a>
+                <div class="main-slider__body">
+                  <div class="main-slider__text text">
+                    <p>Candles are a type of decorative lighting that have been used for centuries. They come in various shapes, sizes, colors, and scents, and are made from a variety of materials, such as wax, beeswax, soy wax, and more..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-slider__slide swiper-slide">
+              <img class="main-slider__bg" src="img/candle.jpeg" alt="Image">
+              <div class="main-slider__container">
+                <a href="#" class="main-slider__category category">NExt Candle</a>
+                <div class="main-slider__body">
+                  <div class="main-slider__text text">
+                    <p>Candles are a type of decorative lighting that have been used for centuries. They come in various shapes, sizes, colors, and scents, and are made from a variety of materials, such as wax, beeswax, soy wax, and more.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__bullets bullets">
+            <div class="bullets__container">
+              <div class="bullets__items"></div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="products link_1">
+        <div class="products__container">
+          <div class="products__item">
+            <a href="#"><img class="products__img" src="img/item.jpeg" alt=""></a>
+            <h2 class="products__title">Аромадиффузоры</h2>
+          </div>
+          <div class="products__item"> 
+            <a href="#"><img class="products__img" src="img/item.jpeg" alt=""></a>
+            <h2 class="products__title">Аромасвечи</h2>
+          </div>
+          <div class="products__item">
+            <a href="#"><img class="products__img" src="img/item.jpeg" alt=""></a>
+            <h2 class="products__title">Спреи, наполнители</h2>
+          </div>
+          <div class="products__item">
+            <a href="#"><img class="products__img" src="img/item.jpeg" alt=""></a>
+            <h2 class="products__title">Парфюмированная косметика</h2>
+          </div>
+        </div>
+      </section>
+
+      <section class="candle">
+        <div class="candle__container">
+          <div class="candle__text">
+            <h1 class="candle__title">Аромадиффузоры</h1>
+          </div>
+          <div class="candle__pics">
+            <img class="candle__img" src="img/bottle.jpeg" alt="">
+            <img class="candle__img" src="img/bottle.jpeg" alt="">
+          </div>
+        </div>
+      </section>
+      
+      <section class="candle-about link_2">
+        <div class="candle-about__container">
+           <div class="candle-about__images">
+            <img class="candle-about__img" src="img/candleGrey.jpeg" alt="">
+           </div>
+           <div class="candle-about__text">
+            <h2 class="candle-about__title">Аромадиффузоры</h2>
+            <p class="candle-about__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id vel corrupti optio adipisci minus dicta nam quam autem maiores, dolores assumenda sapiente cumque accusantium itaque numquam molestiae voluptatem eaque maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id vel corrupti optio adipisci minus dicta nam quam autem maiores, dolores assumenda sapiente cumque accusantium itaque numquam molestiae voluptatem eaque maxime.</p>
+           </div>
+        </div>
+      </section>
+
+      <section class="candle-about">
+        <div class="candle-about__container">
+          <div class="candle-about__text">
+           <h2 class="candle-about__title">Аромадиффузоры</h2>
+           <p class="candle-about__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id vel corrupti optio adipisci minus dicta nam quam autem maiores, dolores assumenda sapiente cumque accusantium itaque numquam molestiae voluptatem eaque maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id vel corrupti optio adipisci minus dicta nam quam autem maiores, dolores assumenda sapiente cumque accusantium itaque numquam molestiae voluptatem eaque maxime.</p>
+          </div>
+           <div class="candle-about__images">
+            <img class="candle-about__img" src="img/candleGrey.jpeg" alt="">
+           </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="reviews__container">
+          <div class="reviews__head">
+            <h2 class="reviews__title">Отзывы</h2>
+          </div>
+          <div class="reviews__images">
+            <img class="reviews__img" src="img/review.png" alt="#">
+            <img class="reviews__img" src="img/review.png" alt="#">
+            <img class="reviews__img" src="img/review.png" alt="#">
+            <img class="reviews__img" src="img/review.png" alt="#">
+            <img class="reviews__img" src="img/review.png" alt="#">
+          </div>
+          
+        </div>
+      </section>
+      
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__item">
+          <h3 class="footer__title">Sandal Lab</h3>
+          <div class="footer__social">
+            <a href="#"><img class="footer__icon" src="img/icons/tg.png" alt="telegram"></a>
+            <a href="#"><img class="footer__icon" src="img/icons/vk.png" alt="vkontakte"></a>
+            <a href="#"><img class="footer__icon" src="img/icons/what.png" alt="WhatsApp"></a>
+          </div>
+        </div>
+        <div class="footer__products">
+          <ul class="products__list">
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+          </ul>
+        </div>
+        <div class="footer__products">
+          <ul class="products__list">
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+            <li><a href="#">Аромадиффузоры</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <ul class="links__list">
+            <li><a href="#">Шоурумы</a></li>
+            <li><a href="#">Шоурумы</a></li>
+            <li><a href="#">Шоурумы</a></li>
+            <li><a href="#">Шоурумы</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</html>

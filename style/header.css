@@ -1,0 +1,11 @@
+.menu__btn {
+  font-weight: 400;
+  background-color: #dbd6a7;
+  color: #194558;
+  padding: 12px;
+  border-radius: 1.875rem;
+  transition: all .4s ease;
+}
+.menu__btn:active {
+  transform: scale(.9);
+}
