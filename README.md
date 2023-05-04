@@ -1,1 +1,1 @@
-# SandalLab
+# Sandal Lab
